@@ -1886,6 +1886,7 @@ libgazebo9-dev:
   ubuntu:
     artful: [libgazebo9-dev]
     bionic: [libgazebo9-dev]
+    focal: [libgazebo9-dev]
 libgconf2:
   arch: [gconf]
   debian: [libgconf-2-4]
