@@ -10099,18 +10099,19 @@ repositories:
       - rr_openrover_description
       - rr_openrover_driver
       - rr_openrover_driver_msgs
+      - rr_openrover_simulation
       - rr_openrover_stack
       - rr_rover_zero_driver
-      - rr_openrover_simulation
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/RoverRobotics-release/rr_openrover_stack-release.git
       version: 1.1.0-1
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/RoverRobotics/rr_openrover_stack.git
       version: melodic-devel
-    status: maintained
+    status: developed      
   rtabmap:
     doc:
       type: git
